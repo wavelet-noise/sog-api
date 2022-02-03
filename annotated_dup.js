@@ -5,6 +5,7 @@ var annotated_dup =
       [ "Core", "struct_e_c_s_1_1_core.html", null ],
       [ "DeathScript", "struct_e_c_s_1_1_death_script.html", null ],
       [ "Despawn", "struct_e_c_s_1_1_despawn.html", null ],
+      [ "EcsComponentBase", "struct_e_c_s_1_1_ecs_component_base.html", null ],
       [ "Entity", "class_e_c_s_1_1_entity.html", null ],
       [ "Equipment", "struct_e_c_s_1_1_equipment.html", null ],
       [ "Input", "struct_e_c_s_1_1_input.html", null ],

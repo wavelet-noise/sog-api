@@ -26,16 +26,54 @@ var hierarchy =
     [ "BaseHelper< UMaterial >", "struct_base_helper.html", null ],
     [ "BaseHelper< UMaterialPool >", "struct_base_helper.html", null ],
     [ "BaseHelper< URoomBase >", "struct_base_helper.html", null ],
-    [ "ECS::Behavior", "struct_e_c_s_1_1_behavior.html", null ],
     [ "Buffer", "struct_buffer.html", null ],
-    [ "ECS::Core", "struct_e_c_s_1_1_core.html", null ],
     [ "DB", "class_d_b.html", null ],
-    [ "ECS::DeathScript", "struct_e_c_s_1_1_death_script.html", null ],
-    [ "ECS::Despawn", "struct_e_c_s_1_1_despawn.html", null ],
     [ "Dimension", "class_dimension.html", null ],
+    [ "ECS::EcsComponentBase< Ty_ >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< AnimationScript >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Attach >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Attack >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Behavior >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Behavior", "struct_e_c_s_1_1_behavior.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Core >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Core", "struct_e_c_s_1_1_core.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< DeathScript >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::DeathScript", "struct_e_c_s_1_1_death_script.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Despawn >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Despawn", "struct_e_c_s_1_1_despawn.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Equipment >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Equipment", "struct_e_c_s_1_1_equipment.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Flight >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< ImpactDamage >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Input >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Input", "struct_e_c_s_1_1_input.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Interaction >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Jump >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Light >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Physics >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Physics", "struct_e_c_s_1_1_physics.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Render >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Selectable >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Selectable", "struct_e_c_s_1_1_selectable.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< SpawnScript >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::SpawnScript", "struct_e_c_s_1_1_spawn_script.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< Spring >", "struct_e_c_s_1_1_ecs_component_base.html", null ],
+    [ "ECS::EcsComponentBase< Target >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::Target", "struct_e_c_s_1_1_target.html", null ]
+    ] ],
+    [ "ECS::EcsComponentBase< TickScript >", "struct_e_c_s_1_1_ecs_component_base.html", [
+      [ "ECS::TickScript", "struct_e_c_s_1_1_tick_script.html", null ]
+    ] ],
     [ "ECS::Entity", "class_e_c_s_1_1_entity.html", null ],
-    [ "ECS::Equipment", "struct_e_c_s_1_1_equipment.html", null ],
-    [ "ECS::Input", "struct_e_c_s_1_1_input.html", null ],
     [ "Inventory", "struct_inventory.html", null ],
     [ "ItemInstance", "struct_item_instance.html", null ],
     [ "LabelDescriptionBase", "class_label_description_base.html", [
@@ -44,10 +82,5 @@ var hierarchy =
       [ "ModifierBase", "class_modifier_base.html", null ],
       [ "UItemBase", "class_u_item_base.html", null ]
     ] ],
-    [ "ECS::Physics", "struct_e_c_s_1_1_physics.html", null ],
-    [ "ECS::Selectable", "struct_e_c_s_1_1_selectable.html", null ],
-    [ "ECS::SpawnScript", "struct_e_c_s_1_1_spawn_script.html", null ],
-    [ "ECS::Target", "struct_e_c_s_1_1_target.html", null ],
-    [ "ECS::TickScript", "struct_e_c_s_1_1_tick_script.html", null ],
     [ "USandLuaState", "class_u_sand_lua_state.html", null ]
 ];
