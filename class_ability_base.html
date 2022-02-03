@@ -88,55 +88,75 @@ $(document).ready(function(){initNavTree('class_ability_base.html',''); initResi
   <div class="headertitle"><div class="title">AbilityBase Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Lua scripted ability object for <a class="el" href="class_d_b.html" title="database of static game objects">DB</a>.  
+ <a href="class_ability_base.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AbilityBase:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_ability_base.png" alt=""/>
- </div></div>
+  <img src="class_ability_base.png" usemap="#AbilityBase_map" alt=""/>
+  <map id="AbilityBase_map" name="AbilityBase_map">
+<area href="class_label_description_base.html" title="base class for objects with description and label" alt="LabelDescriptionBase" shape="rect" coords="0,0,165,24"/>
+<area href="struct_base_helper.html" alt="BaseHelper&lt; AbilityBase &gt;" shape="rect" coords="175,0,340,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0324432a95471ff274b7e9397cec6cca"><td class="memItemLeft" align="right" valign="top"><a id="a0324432a95471ff274b7e9397cec6cca" name="a0324432a95471ff274b7e9397cec6cca"></a>
-const <a class="el" href="class_u_lua_script.html">ULuaScript</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetScript</b> () const</td></tr>
+const ULuaScript *&#160;</td><td class="memItemRight" valign="bottom"><b>GetScript</b> () const</td></tr>
+<tr class="memdesc:a0324432a95471ff274b7e9397cec6cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">local script = ability_instance.script /sa LuaProperty <br /></td></tr>
 <tr class="separator:a0324432a95471ff274b7e9397cec6cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77c464bfb0c599d83afa68fb7dd986b7"><td class="memItemLeft" align="right" valign="top"><a id="a77c464bfb0c599d83afa68fb7dd986b7" name="a77c464bfb0c599d83afa68fb7dd986b7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScript</b> (const <a class="el" href="class_u_lua_script.html">ULuaScript</a> *val)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScript</b> (const ULuaScript *val)</td></tr>
+<tr class="memdesc:a77c464bfb0c599d83afa68fb7dd986b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ability_instance.script = LuaScript.find("ability_script") /sa LuaProperty <br /></td></tr>
 <tr class="separator:a77c464bfb0c599d83afa68fb7dd986b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2442418356c5ff68e7adaa6f8be9dd"><td class="memItemLeft" align="right" valign="top"><a id="a7e2442418356c5ff68e7adaa6f8be9dd" name="a7e2442418356c5ff68e7adaa6f8be9dd"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetTicks</b> () const</td></tr>
-<tr class="separator:a7e2442418356c5ff68e7adaa6f8be9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca46cc476211e88d710912cfe3df7415"><td class="memItemLeft" align="right" valign="top"><a id="aca46cc476211e88d710912cfe3df7415" name="aca46cc476211e88d710912cfe3df7415"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTicks</b> (int32_t val)</td></tr>
-<tr class="separator:aca46cc476211e88d710912cfe3df7415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aa624ae8a2d3289f08eb7a5f5831bca"><td class="memItemLeft" align="right" valign="top"><a id="a2aa624ae8a2d3289f08eb7a5f5831bca" name="a2aa624ae8a2d3289f08eb7a5f5831bca"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDmg</b> () const</td></tr>
-<tr class="separator:a2aa624ae8a2d3289f08eb7a5f5831bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a5b144d85006ddb7a6ecc696b32542"><td class="memItemLeft" align="right" valign="top"><a id="a08a5b144d85006ddb7a6ecc696b32542" name="a08a5b144d85006ddb7a6ecc696b32542"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDmg</b> (int32_t val)</td></tr>
-<tr class="separator:a08a5b144d85006ddb7a6ecc696b32542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a88bdfc446da4e80a556027f84817e4"><td class="memItemLeft" align="right" valign="top"><a id="a3a88bdfc446da4e80a556027f84817e4" name="a3a88bdfc446da4e80a556027f84817e4"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetCast</b> () const</td></tr>
-<tr class="separator:a3a88bdfc446da4e80a556027f84817e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97693d629e392173c574f148d53d13cb"><td class="memItemLeft" align="right" valign="top"><a id="a97693d629e392173c574f148d53d13cb" name="a97693d629e392173c574f148d53d13cb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCast</b> (int32_t val)</td></tr>
-<tr class="separator:a97693d629e392173c574f148d53d13cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1648f682b79803c153c5fd65b6a099f1"><td class="memItemLeft" align="right" valign="top"><a id="a1648f682b79803c153c5fd65b6a099f1" name="a1648f682b79803c153c5fd65b6a099f1"></a>
-const <a class="el" href="class_file_texture.html">FileTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetTexture</b> () const</td></tr>
-<tr class="separator:a1648f682b79803c153c5fd65b6a099f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47de5a65d316622dc00c6e4304b6bb9d"><td class="memItemLeft" align="right" valign="top"><a id="a47de5a65d316622dc00c6e4304b6bb9d" name="a47de5a65d316622dc00c6e4304b6bb9d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTexture</b> (const <a class="el" href="class_file_texture.html">FileTexture</a> *val)</td></tr>
-<tr class="separator:a47de5a65d316622dc00c6e4304b6bb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f8dcbadfa0d85bbd590ce7a50bf8d81"><td class="memItemLeft" align="right" valign="top"><a id="a6f8dcbadfa0d85bbd590ce7a50bf8d81" name="a6f8dcbadfa0d85bbd590ce7a50bf8d81"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetCooldown</b> () const</td></tr>
+<tr class="memitem:a6f8dcbadfa0d85bbd590ce7a50bf8d81"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_base.html#a6f8dcbadfa0d85bbd590ce7a50bf8d81">GetCooldown</a> () const</td></tr>
 <tr class="separator:a6f8dcbadfa0d85bbd590ce7a50bf8d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a751c683d9c60a891de55d15f4eb22c8b"><td class="memItemLeft" align="right" valign="top"><a id="a751c683d9c60a891de55d15f4eb22c8b" name="a751c683d9c60a891de55d15f4eb22c8b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCooldown</b> (int32_t val)</td></tr>
+<tr class="memdesc:a751c683d9c60a891de55d15f4eb22c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ability_instance.cooldown = 10 /sa LuaProperty <br /></td></tr>
 <tr class="separator:a751c683d9c60a891de55d15f4eb22c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a932117e875a2ed52044c2b60b4fefa09"><td class="memItemLeft" align="right" valign="top"><a id="a932117e875a2ed52044c2b60b4fefa09" name="a932117e875a2ed52044c2b60b4fefa09"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>DoAttack</b> (<a class="el" href="class_dimension.html">Dimension</a> *dim, const glm::ivec2 &amp;from, const glm::ivec2 &amp;to)</td></tr>
-<tr class="separator:a932117e875a2ed52044c2b60b4fefa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_label_description_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_label_description_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_label_description_base.html">LabelDescriptionBase</a></td></tr>
+<tr class="memitem:a33d9dd5f3efeeabc9a87ef8323f008da inherit pub_methods_class_label_description_base"><td class="memItemLeft" align="right" valign="top"><a id="a33d9dd5f3efeeabc9a87ef8323f008da" name="a33d9dd5f3efeeabc9a87ef8323f008da"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddLabelPart</b> (std::string_view table, std::string_view key)</td></tr>
+<tr class="memdesc:a33d9dd5f3efeeabc9a87ef8323f008da inherit pub_methods_class_label_description_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">db_object:add_label(table, key) <br /></td></tr>
+<tr class="separator:a33d9dd5f3efeeabc9a87ef8323f008da inherit pub_methods_class_label_description_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49ece6114dad90b5468cb8734721506 inherit pub_methods_class_label_description_base"><td class="memItemLeft" align="right" valign="top"><a id="ae49ece6114dad90b5468cb8734721506" name="ae49ece6114dad90b5468cb8734721506"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddDescriptionPart</b> (std::string_view table, std::string_view key)</td></tr>
+<tr class="memdesc:ae49ece6114dad90b5468cb8734721506 inherit pub_methods_class_label_description_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">db_object:add_description(table, key) <br /></td></tr>
+<tr class="separator:ae49ece6114dad90b5468cb8734721506 inherit pub_methods_class_label_description_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Lua scripted ability object for <a class="el" href="class_d_b.html" title="database of static game objects">DB</a>. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6f8dcbadfa0d85bbd590ce7a50bf8d81" name="a6f8dcbadfa0d85bbd590ce7a50bf8d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8dcbadfa0d85bbd590ce7a50bf8d81">&#9670;&nbsp;</a></span>GetCooldown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t AbilityBase::GetCooldown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >local cooldown = ability_instance.cooldown /sa LuaProperty </p><dl class="section return"><dt>Returns</dt><dd>Number of ticks to the next ability usage </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

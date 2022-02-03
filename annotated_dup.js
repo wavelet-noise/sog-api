@@ -7,6 +7,7 @@ var annotated_dup =
       [ "EventSubscriber", "class_e_c_s_1_1_event_subscriber.html", "class_e_c_s_1_1_event_subscriber" ],
       [ "World", "class_e_c_s_1_1_world.html", "class_e_c_s_1_1_world" ]
     ] ],
+    [ "AbilityBase", "class_ability_base.html", "class_ability_base" ],
     [ "BaseHelper", "struct_base_helper.html", null ],
     [ "Buffer", "struct_buffer.html", "struct_buffer" ],
     [ "DB", "class_d_b.html", null ],

@@ -1,7 +1,9 @@
 var hierarchy =
 [
     [ "BaseHelper< Ty_ >", "struct_base_helper.html", null ],
-    [ "BaseHelper< AbilityBase >", "struct_base_helper.html", null ],
+    [ "BaseHelper< AbilityBase >", "struct_base_helper.html", [
+      [ "AbilityBase", "class_ability_base.html", null ]
+    ] ],
     [ "BaseHelper< Animation >", "struct_base_helper.html", null ],
     [ "BaseHelper< EntityBase >", "struct_base_helper.html", [
       [ "EntityBase", "class_entity_base.html", null ]
@@ -31,6 +33,7 @@ var hierarchy =
     [ "ECS::EventSubscriber< Events::OnEntityDestroyed >", "class_e_c_s_1_1_event_subscriber.html", null ],
     [ "ECS::EventSubscriber< Events::OnEntitySpawned >", "class_e_c_s_1_1_event_subscriber.html", null ],
     [ "LabelDescriptionBase", "class_label_description_base.html", [
+      [ "AbilityBase", "class_ability_base.html", null ],
       [ "EntityBase", "class_entity_base.html", null ]
     ] ],
     [ "USandLuaState", "class_u_sand_lua_state.html", null ],
