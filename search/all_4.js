@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['each_0',['each',['../class_e_c_s_1_1_world.html#a44b1f416dd4c629c6e623577bd4ae4d4',1,'ECS::World::each(typename std::common_type&lt; std::function&lt; void(Entity *, ComponentHandle&lt; Types &gt;...)&gt; &gt;::type viewFunc, bool bIncludePendingDestroy=false)'],['../class_e_c_s_1_1_world.html#a983f5f5d30e0246addb20b413a91a0e0',1,'ECS::World::each(bool bIncludePendingDestroy=false)']]],
-  ['emit_1',['emit',['../class_e_c_s_1_1_world.html#a1860aecfe93fed38b4b0c918f0e17bf4',1,'ECS::World']]],
-  ['entity_2',['Entity',['../class_e_c_s_1_1_entity.html',1,'ECS']]],
-  ['entitybase_3',['EntityBase',['../class_entity_base.html',1,'']]],
-  ['entitysystem_4',['EntitySystem',['../class_e_c_s_1_1_entity_system.html',1,'ECS']]],
-  ['eventsubscriber_5',['EventSubscriber',['../class_e_c_s_1_1_event_subscriber.html',1,'ECS']]],
-  ['eventsubscriber_3c_20events_3a_3aonanimationfinished_20_3e_6',['EventSubscriber&lt; Events::OnAnimationFinished &gt;',['../class_e_c_s_1_1_event_subscriber.html',1,'ECS']]],
-  ['eventsubscriber_3c_20events_3a_3aonentitydestroyed_20_3e_7',['EventSubscriber&lt; Events::OnEntityDestroyed &gt;',['../class_e_c_s_1_1_event_subscriber.html',1,'ECS']]],
-  ['eventsubscriber_3c_20events_3a_3aonentityspawned_20_3e_8',['EventSubscriber&lt; Events::OnEntitySpawned &gt;',['../class_e_c_s_1_1_event_subscriber.html',1,'ECS']]]
+  ['getcooldown_0',['GetCooldown',['../class_ability_base.html#a6f8dcbadfa0d85bbd590ce7a50bf8d81',1,'AbilityBase']]],
+  ['getpos_1',['GetPos',['../struct_buffer.html#a8a083a0d254268961f61408b83cf0077',1,'Buffer']]],
+  ['getreplace_2',['GetReplace',['../struct_buffer.html#a99df3c8d9f4def8c60234d199c5d7c81',1,'Buffer']]],
+  ['getscale_3',['GetScale',['../class_entity_base.html#a0da90ad67ce1f10ffa22041245cb137b',1,'EntityBase']]],
+  ['getscript_4',['GetScript',['../class_ability_base.html#a0324432a95471ff274b7e9397cec6cca',1,'AbilityBase']]],
+  ['getsize_5',['GetSize',['../struct_buffer.html#a56df00e57ce87706cea16d9f5afc9d15',1,'Buffer']]]
 ];

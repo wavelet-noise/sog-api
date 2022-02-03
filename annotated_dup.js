@@ -1,12 +1,5 @@
 var annotated_dup =
 [
-    [ "ECS", null, [
-      [ "ComponentHandle", "class_e_c_s_1_1_component_handle.html", null ],
-      [ "Entity", "class_e_c_s_1_1_entity.html", "class_e_c_s_1_1_entity" ],
-      [ "EntitySystem", "class_e_c_s_1_1_entity_system.html", "class_e_c_s_1_1_entity_system" ],
-      [ "EventSubscriber", "class_e_c_s_1_1_event_subscriber.html", "class_e_c_s_1_1_event_subscriber" ],
-      [ "World", "class_e_c_s_1_1_world.html", "class_e_c_s_1_1_world" ]
-    ] ],
     [ "AbilityBase", "class_ability_base.html", "class_ability_base" ],
     [ "BaseHelper", "struct_base_helper.html", null ],
     [ "Buffer", "struct_buffer.html", "struct_buffer" ],

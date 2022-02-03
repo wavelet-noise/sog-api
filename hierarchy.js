@@ -23,19 +23,10 @@ var hierarchy =
     [ "BaseHelper< UMaterialPool >", "struct_base_helper.html", null ],
     [ "BaseHelper< URoomBase >", "struct_base_helper.html", null ],
     [ "Buffer", "struct_buffer.html", null ],
-    [ "ECS::ComponentHandle< T >", "class_e_c_s_1_1_component_handle.html", null ],
-    [ "ECS::ComponentHandle< Render >", "class_e_c_s_1_1_component_handle.html", null ],
     [ "DB", "class_d_b.html", null ],
-    [ "ECS::Entity", "class_e_c_s_1_1_entity.html", null ],
-    [ "ECS::EntitySystem", "class_e_c_s_1_1_entity_system.html", null ],
-    [ "ECS::EventSubscriber< T >", "class_e_c_s_1_1_event_subscriber.html", null ],
-    [ "ECS::EventSubscriber< Events::OnAnimationFinished >", "class_e_c_s_1_1_event_subscriber.html", null ],
-    [ "ECS::EventSubscriber< Events::OnEntityDestroyed >", "class_e_c_s_1_1_event_subscriber.html", null ],
-    [ "ECS::EventSubscriber< Events::OnEntitySpawned >", "class_e_c_s_1_1_event_subscriber.html", null ],
     [ "LabelDescriptionBase", "class_label_description_base.html", [
       [ "AbilityBase", "class_ability_base.html", null ],
       [ "EntityBase", "class_entity_base.html", null ]
     ] ],
-    [ "USandLuaState", "class_u_sand_lua_state.html", null ],
-    [ "ECS::World", "class_e_c_s_1_1_world.html", null ]
+    [ "USandLuaState", "class_u_sand_lua_state.html", null ]
 ];
