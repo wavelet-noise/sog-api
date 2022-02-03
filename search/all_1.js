@@ -18,5 +18,6 @@ var searchData=
   ['basehelper_3c_20umaterial_20_3e_15',['BaseHelper&lt; UMaterial &gt;',['../struct_base_helper.html',1,'']]],
   ['basehelper_3c_20umaterialpool_20_3e_16',['BaseHelper&lt; UMaterialPool &gt;',['../struct_base_helper.html',1,'']]],
   ['basehelper_3c_20uroombase_20_3e_17',['BaseHelper&lt; URoomBase &gt;',['../struct_base_helper.html',1,'']]],
-  ['buffer_18',['Buffer',['../struct_buffer.html',1,'']]]
+  ['behavior_18',['Behavior',['../struct_e_c_s_1_1_behavior.html',1,'ECS']]],
+  ['buffer_19',['Buffer',['../struct_buffer.html',1,'']]]
 ];
